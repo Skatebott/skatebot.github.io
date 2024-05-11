@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, nav {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Yeni font: Roboto */
     background-color: #f8f9fa; /* Arka plan rengi */
     color: #333;
     line-height: 1.6;
@@ -72,7 +72,7 @@ nav ul li a:hover {
     background-color: #0056b3; /* Davet butonu üzerine gelindiğindeki arka plan rengi */
 }
 
-/* Daha güzel bir stil */
+/* Modern ve güzel bir stil */
 #home {
     background-color: #f8f9fa; /* Ana sayfa arka plan rengi */
     padding: 50px 0;
@@ -132,4 +132,4 @@ footer p {
 .credit {
     color: #f8f9fa; /* Credit metni rengi */
     font-size: 0.8em;
-    }
+}
