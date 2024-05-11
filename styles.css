@@ -6,8 +6,8 @@ body, h1, h2, p, ul, li, nav {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0; /* Arka plan rengi */
+    font-family: 'Arial', 'sans-serif';
+    background-color: #f8f9fa; /* Arka plan rengi */
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #333; /* Üst menü arka plan rengi */
+    background-color: #343a40; /* Üst menü arka plan rengi */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -30,7 +30,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333; /* Menü arka plan rengi */
+    background-color: #343a40; /* Menü arka plan rengi */
     padding: 10px 0;
 }
 
@@ -54,14 +54,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Menü linkleri üzerine gelindiğindeki arka plan rengi */
+    background-color: #6c757d; /* Menü linkleri üzerine gelindiğindeki arka plan rengi */
 }
 
 .invite-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #ff5722; /* Davet butonu arka plan rengi */
+    background-color: #007bff; /* Davet butonu arka plan rengi */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -69,5 +69,5 @@ nav ul li a:hover {
 }
 
 .invite-btn:hover {
-    background-color: #f44336; /* Davet butonu üzerine gelindiğindeki arka plan rengi */
+    background-color: #0056b3; /* Davet butonu üzerine gelindiğindeki arka plan rengi */
 }
