@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, nav {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
@@ -132,4 +132,4 @@ footer p {
 .credit {
     color: #f8f9fa;
     font-size: 0.8em;
-    }
+}
