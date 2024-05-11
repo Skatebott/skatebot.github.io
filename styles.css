@@ -61,7 +61,7 @@ nav ul li a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007bff; /* Davet butonu arka plan rengi */
+    background-color: #17a2b8; /* Davet butonu arka plan rengi */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -69,5 +69,54 @@ nav ul li a:hover {
 }
 
 .invite-btn:hover {
-    background-color: #0056b3; /* Davet butonu üzerine gelindiğindeki arka plan rengi */
+    background-color: #117a8b; /* Davet butonu üzerine gelindiğindeki arka plan rengi */
+}
+
+/* Daha ilgi çekici stil */
+#home {
+    background-color: #f8f9fa; /* Ana sayfa arka plan rengi */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#home h2 {
+    color: #007bff; /* Başlık rengi */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: #6c757d; /* Metin rengi */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.feature {
+    background-color: #ffffff; /* Özellik kutusu arka plan rengi */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Hafif bir gölgelendirme */
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px); /* Hafif bir yukarı kaydırma efekti */
+}
+
+.feature h3 {
+    color: #17a2b8; /* Başlık rengi */
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #333; /* Metin rengi */
+    font-size: 1em;
+}
+
+footer {
+    background-color: #343a40; /* Alt menü arka plan rengi */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
