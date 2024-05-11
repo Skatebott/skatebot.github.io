@@ -46,6 +46,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 /* Stil for the invite button */
 .invite-btn {
     display: inline-block;
@@ -60,4 +61,9 @@ footer {
 
 .invite-btn:hover {
     background-color: #5a68a5;
+}
+
+/* Stil for the highlighted list items */
+#features li.highlight {
+    background-color: #f9ca24;
 }
