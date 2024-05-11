@@ -6,35 +6,63 @@ body, h1, h2, p, ul, li, nav {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 header {
     background-color: #7289da;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #7289da;
+    padding: 10px 0;
+}
+
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #5a68a5;
 }
 
 section {
-    padding: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -47,23 +75,46 @@ footer {
     width: 100%;
 }
 
-/* Stil for the invite button */
-.invite-btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
+/* Görsel boyutlandırma */
+.large {
+    width: 200px;
+    transition: width 0.5s;
+}
+
+/* İletişim formu stilleri */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    padding: 8px 20px;
     background-color: #7289da;
     color: #fff;
-    text-decoration: none;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.invite-btn:hover {
+.form-group button:hover {
     background-color: #5a68a5;
-}
-
-/* Stil for the highlighted list items */
-#features li.highlight {
-    background-color: #f9ca24;
-}
+    }
