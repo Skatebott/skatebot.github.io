@@ -1,11 +1,4 @@
-// Features bölümündeki liste öğelerine tıklandığında arka plan rengini değiştir
-document.querySelectorAll('#features li').forEach(item => {
-    item.addEventListener('click', () => {
-        item.classList.toggle('highlight');
-    });
-});
-
-// Botu sunucuya ekle butonuna tıklandığında mesaj kutusu göster
+// Botu sunucuya ekle butonuna tıklandığında mesaj kutusu göster ve botu sunucuya ekle
 document.querySelector('.invite-btn').addEventListener('click', () => {
     if (confirm("Bu botu sunucunuza eklemek istediğinizden emin misiniz?")) {
         window.location.href = "https://discord.com/oauth2/authorize?client_id=1164244102590759092&scope=bot%20applications.commands&permissions=0";
