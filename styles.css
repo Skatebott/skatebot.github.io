@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #6c5ce7; /* Üst menü arka plan rengi (Mor) */
+    background-color: #343a40; /* Üst menü arka plan rengi */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -30,7 +30,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #6c5ce7; /* Menü arka plan rengi (Mor) */
+    background-color: #343a40; /* Menü arka plan rengi */
     padding: 10px 0;
 }
 
@@ -54,14 +54,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #4b3f72; /* Menü linkleri üzerine gelindiğindeki arka plan rengi (Koyu mor) */
+    background-color: #555; /* Menü linkleri üzerine gelindiğindeki arka plan rengi */
 }
 
 .invite-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #ff6b6b; /* Davet butonu arka plan rengi (Kırmızı) */
+    background-color: #007bff; /* Davet butonu arka plan rengi */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -69,10 +69,10 @@ nav ul li a:hover {
 }
 
 .invite-btn:hover {
-    background-color: #ee5253; /* Davet butonu üzerine gelindiğindeki arka plan rengi (Koyu kırmızı) */
+    background-color: #0056b3; /* Davet butonu üzerine gelindiğindeki arka plan rengi */
 }
 
-/* Daha ilgi çekici stil */
+/* Daha güzel bir stil */
 #home {
     background-color: #f8f9fa; /* Ana sayfa arka plan rengi */
     padding: 50px 0;
@@ -80,19 +80,19 @@ nav ul li a:hover {
 }
 
 #home h2 {
-    color: #ff9f43; /* Başlık rengi (Turuncu) */
+    color: #6c757d; /* Başlık rengi */
     font-size: 2em;
     margin-bottom: 20px;
 }
 
 #home p {
-    color: #576574; /* Metin rengi (Koyu mavi) */
+    color: #333; /* Metin rengi */
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
 .feature {
-    background-color: #fab1a0; /* Özellik kutusu arka plan rengi (Pembe) */
+    background-color: #fff; /* Özellik kutusu arka plan rengi */
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
@@ -105,17 +105,17 @@ nav ul li a:hover {
 }
 
 .feature h3 {
-    color: #ff6b6b; /* Başlık rengi (Kırmızı) */
+    color: #007bff; /* Başlık rengi */
     margin-bottom: 10px;
 }
 
 .feature p {
-    color: #576574; /* Metin rengi (Koyu mavi) */
+    color: #333; /* Metin rengi */
     font-size: 1em;
 }
 
 footer {
-    background-color: #2d3436; /* Alt menü arka plan rengi (Koyu gri) */
+    background-color: #343a40; /* Alt menü arka plan rengi */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -132,4 +132,4 @@ footer p {
 .credit {
     color: #f8f9fa; /* Credit metni rengi */
     font-size: 0.8em;
-}
+    }
